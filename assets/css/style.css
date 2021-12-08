@@ -1,0 +1,54 @@
+html,
+body {
+  font-family: Quicksand;
+  background-color: #301934;
+  color: rgb(235, 235, 235);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+a:hover {
+    color: rgb(143, 66, 66);
+}
+
+.hider {
+    display: none;
+}
+
+.navbar {
+    background-color: #3a3a3a;
+    position: relative;
+    top: 30px;
+}
+
+.navbar a{
+    color: rgb(235, 235, 235);
+}
+
+.navbar a:hover{
+    color: rgb(143, 66, 66);
+}
+
+.entry-container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.highlight {
+    color: rgb(250, 57, 89);
+    margin-left: 5px;
+}
+
+.entry-link {
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px;
+}
