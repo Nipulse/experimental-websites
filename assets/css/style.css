@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
   font-family: Quicksand;
@@ -20,8 +24,7 @@ a:hover {
 
 .navbar {
     background-color: #3a3a3a;
-    position: relative;
-    top: 30px;
+    display: none;
 }
 
 .navbar a{
@@ -34,7 +37,7 @@ a:hover {
 
 .entry-container{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,4 +54,37 @@ a:hover {
     font-size: 20px;
     border: 1px solid #fff;
     padding: 10px 20px 10px;
+}
+
+
+#aboutme {
+    width: 100vw;
+    height: 100vh;
+    background-color: #864b4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#backtotop {
+    cursor: pointer;
+    background-color: black;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+#backtotop :hover {
+    height: 60px;
+    width: 60px;
+    transition: .2s ease-in-out;
+}
+
+#backtotop svg {
+    height: 100%;
+    width: auto;
 }
