@@ -5,6 +5,7 @@ html {
 html,
 body {
   font-family: Quicksand;
+  font-size: 23px;
   background-color: #301934;
   color: rgb(235, 235, 235);
 }
@@ -58,9 +59,43 @@ a:hover {
 
 
 #aboutme {
+    background-color: rgb(87, 147, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
+}
+
+.aboutme-content {
+    width: 30vw;
+}
+
+#button {
+    text-align: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+    animation: blinker 1.2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+#aboutme svg {
+    height: 30px;
+    width: 30px;
+    opacity: 0;
+}
+
+
+td{
+    width: 400px;
+    padding: 10px;
 }
 
 #backtotop {
