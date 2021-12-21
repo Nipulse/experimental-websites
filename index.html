@@ -12,12 +12,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/base.js"></script>
+    <style>
+        [data-entrance] { visibility: hidden; }
+    </style>
     <title>Just Me</title>
 </head>
 
 <body>
 
-    <div class="entry-container" id="home">
+    <div class="entry-container" id="home" data-entrance="fade" data-entrance-delay="1000">
         <div>
             <span>Hello, I'm </span> <span class="highlight">Troy Abrigo.</span>
         </div>
@@ -70,7 +73,7 @@
     </nav>
 
     <div id="aboutme">
-        <div class="aboutme-content no-gutters">
+        <div class="aboutme-content no-gutters" data-entrance="entrance">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>
@@ -209,8 +212,8 @@
     </div>
 
     <div id="myprojects">
-      <div class=" container myprojects-content">
-
+      <div class=" container myprojects-content" data-entrance="from-bottom">
+            <h1>Hello</h1>
       </div>
     </div>
 
@@ -221,6 +224,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="node_modules/scroll-entrance/src/scroll-entrance.js"></script>
 </body>
 
 </html>

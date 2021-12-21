@@ -62,7 +62,6 @@ a:hover {
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    opacity: 0;
 }
 
 .aboutme-content {
@@ -113,7 +112,6 @@ td{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    opacity: 0;
 }
 
 #backtotop {

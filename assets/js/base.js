@@ -2,11 +2,9 @@ $(document).ready(function() {
  
   $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 800) {
+    if (y > 600) {
       $('.navbar').slideDown();
       $('#backtotop i').slideDown();
-      $('#aboutme').css('opacity','1').css('transition','.8s ease-in');
-      $('#myprojects').css('opacity','1').css('transition','.8s ease-in');
     }
     else {
       $('#backtotop i').fadeOut();
