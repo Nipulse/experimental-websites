@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 html,
@@ -7,6 +8,8 @@ body {
   font-family: Quicksand;
   background-color: #161853;
   color: #FAEDF0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -30,7 +33,6 @@ a:hover {
     display: none;
 }
 
-
 .entry-container{
     width: 100vw;
     height: 100vh;
@@ -41,12 +43,18 @@ a:hover {
     font-size: 50px;
 }
 
+.entry-container-content {
+    display: none;
+}
+
 .highlight {
     color: #EC255A;
     margin-left: 5px;
 }
 
 .entry-link {
+    margin: auto;
+    width: 9em;
     font-size: 20px;
     border: 1px solid #fff;
     padding: 10px 20px 10px;
@@ -104,7 +112,7 @@ td{
 }
 
 #myprojects {
-    background-color: #2a8027;
+    background-color: #2c332c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,6 +121,38 @@ td{
     height: 100vh;
     margin: 0 auto;
 }
+
+#myprojects .row {
+    justify-content: space-evenly;
+}
+
+.proj-img-container {
+    cursor: pointer;
+    padding: 20px;
+    max-width: 280px;
+}
+
+.modal-body .row{
+    min-height: 30vw;
+}
+
+.modal-body {
+    padding:0 80px 0 50px;
+}
+
+.modal-bg {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+
+.modal-desc {
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
 
 #backtotop {
     cursor: pointer;
@@ -130,4 +170,41 @@ td{
     font-size: 40px;
     color: rgb(255, 255, 255);
     display: none;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+.bounce_button {  
+  opacity: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.bounce_button:hover {
+  cursor: pointer;
+  opacity: 100%;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
 }

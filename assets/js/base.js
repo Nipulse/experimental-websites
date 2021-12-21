@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+  $('.entry-container-content').delay(200).fadeIn(800);
+  
+
  
   $(document).scroll(function() {
     var y = $(this).scrollTop();
