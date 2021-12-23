@@ -20,9 +20,9 @@
 
 <body>
 
-    <div class="entry-container" id="home">
+    <div class="entry-container text-center" id="home">
         <div class="entry-container-content">
-            <div>
+            <div>       
                 <span>Hello, I'm </span> <span class="highlight">Troy Abrigo.</span>
             </div>
             <div>
@@ -237,7 +237,7 @@
     <div id="myprojects">
       <div class="container myprojects-content">
             <div class="row text-center" data-entrance="from-right">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#hcd">
                     <img src="/assets/img/proj.png" class="img-fluid" alt="">
                     <span>Project 1</span>
                 </div>
@@ -262,7 +262,49 @@
       </div>
     </div>
 
-    <!-- Modal -->
+    <!-- HCD Modal -->
+    <div class="modal fade text-dark" id="hcd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Go Headcase Designs</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 modal-bg" style="background: url(assets/img/hcd.png);">
+                        </div>
+                        <div class="col-lg-6 modal-desc">
+                            <p>Based on Bigcommerce Platform, this was the first solo website I designed and also developed.</p>
+                            <p>
+                                With over 400 Brands and 10,000 Products I think it's safe to say that this is a Mega Store website.
+                            </p>
+                            <p>
+                                I also spearheaded a team with a goal to input products in-store, by year-end and with daily quotas.
+                            </p>
+
+                            <span><b>Key Features:</b></span>
+
+                            <ul>
+                                <li>Mega Nav (built from scratch)</li>
+                                <li>Dynamic Product Type Selection</li>
+                                <li>Custom Brand Page with unique brand description and banner image</li>
+                                <li>Custom Category Page</li>
+                            </ul>
+                            <div>
+                                <a name="View Website" id="" class="btn btn-dark" href="https://goheadcase.com/" 
+                                target="https://goheadcase.com/" role="button">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NWSFF Modal -->
     <div class="modal fade text-dark" id="nwsff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
