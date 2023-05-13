@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -7,7 +7,7 @@ html {
 
 html,
 body {
-  font-family: Quicksand;
+  font-family: Rubik;
   background-color: #161853;
   color: #FAEDF0;
   padding: 0;
