@@ -26,7 +26,7 @@
                 <span>Hello, I'm </span> <span class="highlight">Troy Abrigo.</span>
             </div>
             <div>
-                <p>I'm a Front End Developer </p>
+                <p>I'm a Ecommerce Front End Developer </p>
             </div>
             <a href="#aboutme">
                 <div class="entry-link">
@@ -44,7 +44,7 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #424242;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Into the Web</a>
+            <a class="navbar-brand" href="#">Troy Abrigo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,6 +58,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myprojects">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item dropdown hider">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -246,30 +249,108 @@
 
     <div id="myprojects">
       <div class="container myprojects-content">
-            <div class="row text-center" data-aos="fade-up-right" data-aos-duration="1000">
+            <div class="row text-center" data-aos="fade-in" data-aos-duration="1000">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#rbs">
+                    <img src="https://royalbasketballschool.com/cdn/shop/files/RBS_New_Logo.png?v=1711488240" class="img-fluid  " alt="">
+                    <span>Royal Basketball School</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#fifty">
+                    <img src="https://thirteenfiftyapparel.com/cdn/shop/files/logoblk.png?v=1641224083&width=220" class="img-thumbnail" alt="">
+                    <span>13Fifty Apparel</span>
+                </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#hcd">
                     <img src="https://cdn11.bigcommerce.com/s-otle45p56l/images/stencil/240x50/logo-1_1622601046__16710.original.png" class="img-thumbnail" alt="">
                     <span>Go Headcase Designs</span>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button">
-                    <img src="./assets/img/proj.png" class="img-fluid" alt="">
+            </div>
+            <a href="#contact">
+                <div class="mt-3 text-center" data-aos="fade-in" data-aos-delay="300">
+                    Contact Page <i class="fas fa-arrow-circle-down"></i>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button">
-                    <img src="./assets/img/proj.png" class="img-fluid" alt="">
+            </a>
+      </div>
+    </div>
+
+    <!-- RBS Modal -->
+    <div class="modal fade text-dark" id="rbs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Royal Basketball School</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 modal-bg" style="background: url(assets/img/rbs.png);">
+                        </div>
+                        <div class="col-lg-6 modal-desc">
+                            <p>Based on Shopify Platform, this was an already exsisting website when I joined the company. They hired me for a contractual role and my expertise in Shopify website development.</p>
+                            <p><i>
+                                "With convenient LA locations and expert coaches, we provide
+                                opportunities for children of the next generation to stay active,
+                                healthy, and happy through the game of basketball."
+                            </i></p>
+
+                            <span><b>Key features added during my contract period:</b></span>
+
+                            <ul>
+                                <li>Increased Google Page Speed Insights Score by 30%</li>
+                                <li>Created Custom Froms with Google Recaptcha and Honeypot</li>
+                                <li>Created Custom Easy to Edit Blocks and Section</li>
+                                <li>Created Custom Event Page</li>
+                                <li>Created Staff Webstite with Advanced Statistics using Google Sites and Looker Studio</li>
+                            </ul>
+                            <div>
+                                <a name="View Website" id="" class="btn btn-dark" href="https://royalbasketballschool.com/" 
+                                target="https://royalbasketballschool.com/" role="button">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
                 </div>
             </div>
-           <div class="row text-center" data-aos="fade-up-left" data-aos-duration="1200" data-aos-delay="200">
-               <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button">
-                     <img src="./assets/img/proj.png" class="img-fluid" alt="">
-               </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button">
-                     <img src="./assets/img/proj.png" class="img-fluid" alt="">
-               </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button"  data-bs-toggle="modal" data-bs-target="#nwsff">
-                     <img src="./assets/img/proj.png" class="img-fluid" alt="">
-               </div>
-           </div>
-      </div>
+        </div>
+    </div>
+
+    <!-- 13 Fifty Modal -->
+    <div class="modal fade text-dark" id="fifty" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">13Fifty Apparel</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 modal-bg" style="background: url(assets/img/13.png);">
+                        </div>
+                        <div class="col-lg-6 modal-desc">
+                            <p>Based on Shopify Platform, built from a paid theme me another developer joined forces to enhance and make the theme up to client spec.</p>
+                            <p><i>
+                                "At 13 Fifty Apparel, we embody the spirit of service and patriotism. Based in Atlanta, our brand extends beyond tactical law enforcement gear to embrace a lifestyle of resilience and pride shared by American patriots. We honor those who protect and serve by crafting high-quality, durable clothing that caters to both the demanding life of law enforcement professionals and the everyday citizen who stands by our heroes."
+                            </i></p>
+
+                            <span><b>Key features:</b></span>
+
+                            <ul>
+                                <li>Applied SEO and Best Pratices</li>
+                                <li>Created Reusable Pagefly Sections</li>
+                                <li>Scheduled timed theme activation for special events (e.g Breast Cancer Awareness Month)</li>
+                                <li>Configured Integrations using Zapier</li>
+                                <li>Mega Nav Code Customization</li>
+                            </ul>
+                            <div>
+                                <a name="View Website" id="" class="btn btn-dark" href="https://thirteenfiftyapparel.com/" 
+                                target="https://thirteenfiftyapparel.com/" role="button">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- HCD Modal -->
@@ -314,30 +395,16 @@
         </div>
     </div>
 
-    <!-- NWSFF Modal -->
-    <div class="modal fade text-dark" id="nwsff" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-6 modal-bg" style="background: url(assets/img/nwsff.png);">
-                        </div>
-                        <div class="col-lg-6 modal-desc">
-                            <p>Designed and partly developed my me. North West School of Fly Fisihing is one the first collaborative projects I did.</p>
-                            <div>
-                                <a name="View Website" id="" class="btn btn-dark" href="https://nwschoolofflyfishing.com/" 
-                                target="https://nwschoolofflyfishing.com/" role="button">View Website</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                </div>
+    <div class="entry-container text-center" id="contact" data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="entry-container-content">
+            <div>       
+                <span>You can reach me at<br></span> <span><a class="highlight" href="mailto:steventroyabrigo@gmail.com">steventroyabrigo@gmail.com</a></span>
             </div>
+            <a href="mailto:steventroyabrigo@gmail.com">
+                <div class="entry-link mt-3">
+                    Contact Me <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="white" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>
+                </div>
+            </a>
         </div>
     </div>
 
