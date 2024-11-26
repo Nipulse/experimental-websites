@@ -73,8 +73,9 @@ a:hover {
 .aboutme-content {
     background-color: #533535;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    padding: 80px;
+    padding: 40px;
     border-radius: 20px;
+    height: 85%;
 }
 
 #button {
@@ -104,7 +105,7 @@ table {
     margin: 0 auto;
 }
 td{
-    width: 200px;
+    width: 250px;
     height: 50px;
     padding: 10px;
 }
@@ -127,7 +128,16 @@ td{
 .proj-img-container {
     cursor: pointer;
     padding: 20px;
-    max-width: 280px;
+    max-width: 240px;
+}
+
+.proj-img-container img {
+    margin-bottom: 10px;
+}
+
+.show {
+    display: flex !important;
+    align-items: center;
 }
 
 .modal-body .row{
@@ -146,7 +156,7 @@ td{
 
 
 .modal-desc {
-    text-align: justify;
+    text-align: left;
     padding-left: 50px;
     padding-top: 30px;
 }
