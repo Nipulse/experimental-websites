@@ -108,6 +108,37 @@ td{
     width: 250px;
     height: 50px;
     padding: 10px;
+    
+}
+
+.my-projects-link {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: relative;
+    opacity: 75%;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    display: none;
+}
+
+.my-projects-link:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+
+.my-projects-link h2 {
+    white-space: nowrap;
+    position: absolute;
+    right: -28px;
+    top: 125px;
+    word-spacing: -25px;
+    background: #fff;
+    color: black;
+    border-radius: 0px 20px 0px 20px;
+    padding: 10px 2px;
 }
 
 #myprojects {
@@ -123,6 +154,7 @@ td{
 
 #myprojects .row {
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .proj-img-container {

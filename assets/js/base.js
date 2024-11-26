@@ -28,6 +28,7 @@ $(document).ready(function() {
         $(this).css('opacity', '1').hide().delay(i * 100).fadeIn();
          $('#button').css('animation', 'none');
     });
+      $(".my-projects-link").delay(3300).fadeIn("slow");
   });
 
 });
